@@ -17,7 +17,7 @@ echo -e "\n\tStep 3.\n"
 apt install build-essential
 
 echo -e "\n\tStep 4\n"
-sudo apt install cmake python3 build-essential gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib
+apt install cmake python3 build-essential gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib
 git clone https://github.com/raspberrypi/pico-sdk.git
 rm ./RP2040MacropadHidSample/src/pico_sdk_import.cmake
 cp ./pico-sdk/external/pico_sdk_import.cmake ./RP2040MacropadHidSample/src/pico_sdk_import.cmake
